@@ -1,0 +1,34 @@
+{
+  "org_name": "404 Duo Not Found",
+  "header": {
+    "about": "Sobre",
+    "services": "Serviços",
+    "projects": "Projetos",
+    "team": "Equipe",
+    "contact": "Contato",
+    "menu": "Menu",
+    "open_menu": "Abrir menu",
+    "close_menu": "Fechar menu"
+  },
+  "about": {
+    "heading": "Sobre Nós",
+    "title": "Uma presença digital para o teu negócio",
+    "description": "Na 404 Duo Not Found, criamos websites personalizados e de alta qualidade para ajudar o teu negócio a destacar-se online. Oferecemos soluções inovadoras que combinam estética e funcionalidade. Desde a conceção até à implementação, trabalhamos contigo para criar uma presença digital que reflete a identidade única do teu negócio e atrai clientes de forma eficaz.",
+    "items": [
+      {
+        "title": "Design Personalizado",
+        "description": "Criamos designs únicos e personalizados que refletem a identidade do teu negócio e atraem clientes de forma eficaz."
+      },
+      {
+        "title": "Estrutura escalável",
+        "description": "Desenvolvemos websites com uma estrutura escalável, permitindo que o teu negócio cresça sem preocupações técnicas."
+      }
+    ]
+  },
+  "contact": {
+    "eyebrow": "Contacto",
+    "title": "Vamos trabalhar juntos",
+    "description": "Se estás interessado em criar um website personalizado para o teu negócio ou tens alguma dúvida, não hesites em entrar em contacto connosco. Estamos aqui para ajudar-te a alcançar os teus objetivos online. Envia-nos um email, e responderemos o mais breve possível.",
+    "org_github": "Visita o nosso repositório no GitHub"
+  }
+}

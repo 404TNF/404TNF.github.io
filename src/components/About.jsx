@@ -1,21 +1,23 @@
 import SectionTitle from './SectionTitle'
-import { aboutItems } from '../data/siteData'
+import { useTranslation } from 'react-i18next'
 
 export default function About() {
+  const {t} = useTranslation()
+
   return (
     <section id="about" className="mx-auto max-w-6xl px-6 py-20">
       <SectionTitle
-        eyebrow="Sobre"
-        title="Uma presença digital à altura da tua organização"
-        description="Este template foi pensado para organizações que querem uma página clara, elegante e fácil de manter, sem complicações desnecessárias."
+        eyebrow={t("about.eyebrow")}
+        title={t("about.title")}
+        description={t("about.description")}
       />
 
       <div className="mt-10 grid gap-6 md:grid-cols-3">
-        {aboutItems.map((item) => (
-          <div key={item} className="rounded-2xl border border-white/10 bg-white/5 p-6">
-            <h3 className="text-xl font-semibold">{item}</h3>
+        {Array.isArray(t("about.items")) && t("about.items").map((item) => (
+          <div key={item.title} className="rounded-2xl border border-white/10 bg-white/5 p-6">
+            <h3 className="text-xl font-semibold">{item.title}</h3>
             <p className="mt-3 text-slate-300">
-              Edita textos, cores, secções e conteúdos sem desmontar a base do projeto.
+              {item.description}
             </p>
           </div>
         ))}

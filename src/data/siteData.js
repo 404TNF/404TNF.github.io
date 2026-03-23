@@ -40,5 +40,4 @@ export const team = [
 export const aboutItems = [
   'Design limpo',
   'Estrutura escalável',
-  'Fácil de personalizar',
 ]
