@@ -33,7 +33,7 @@ nome-da-org.github.io
 Exemplo:
 
 ```bash
-dev2grow.github.io
+404.github.io
 ```
 
 Depois tens duas opções:
