@@ -77,7 +77,7 @@ export default function Hero() {
               <div
                 key={`${item.title}-${index}`}
                 className="rounded-2xl border border-white/10 bg-slate-900/70 p-5 
-                "
+                hover:bg-slate-800/50 hover:cursor-default hover:shadow-glow"
               >
                 <div className="text-sm ">{renderSidePanelIcon(item.icon)}</div>
                 <p className="mt-2 text-xl font-bold text-white ">{item.title}</p>

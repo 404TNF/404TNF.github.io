@@ -7,6 +7,7 @@ import Services from './components/Services'
 import Projects from './components/Projects'
 import Team from './components/Team'
 import Contact from './components/Contact'
+import Footer from './components/footer'
 import i18n from './i18n'
 import useStore from './store'
 
@@ -31,6 +32,8 @@ export default function App() {
         <Team />
         <Contact />
       </main>
+
+      <Footer />
     </div>
   )
 }

@@ -1,5 +1,6 @@
 import {useTranslation} from 'react-i18next'
 import SectionTitle from './SectionTitle'
+import EmailModal from './EmailModal'
 
 export default function Contact() {
   const {t} = useTranslation()
@@ -15,11 +16,11 @@ export default function Contact() {
         <div className="mt-8 flex flex-wrap gap-4 text-slate-200">
           <a
             className="rounded-xl bg-white px-5 py-3 font-medium text-slate-950"
-            href="mailto:geral@tuaorg.com"
+            href="mailto:404.duo.dev@gmail.com"
           >
-            geral@tuaorg.com
+            {t("contact.email")}
           </a>
-
+          <EmailModal triggerText="Send an email from website" />
           <a
             className="rounded-xl border border-white/15 px-5 py-3 font-medium"
             href="https://github.com/orgs/404-Duo-Not-Found"

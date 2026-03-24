@@ -20,7 +20,7 @@ export default function Team() {
           {safeTeam.map((member) => (
             <div
               key={member.name}
-              className="rounded-2xl border border-white/10 bg-slate-950/70 p-6"
+              className="rounded-2xl border border-white/10 bg-slate-950/70 p-6 hover:shadow-glow"
             >
               <div className="mb-5 h-14 w-14 rounded-2xl border border-white/10 bg-white/5 flex items-center justify-center">
                 <UserRound size={30}/>
