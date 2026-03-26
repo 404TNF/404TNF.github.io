@@ -16,7 +16,7 @@ export default function Team() {
           description={t('team.description')}
         />
 
-        <div className="mt-10 grid gap-6 md:grid-cols-3">
+        <div className="mt-10 grid gap-6 md:grid-cols-2">
           {safeTeam.map((member) => (
             <div
               key={member.name}

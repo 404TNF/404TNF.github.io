@@ -14,7 +14,7 @@ export default function About() {
         description={t("about.description")}
       />
 
-      <div className="mt-10 grid gap-6 md:grid-cols-3">
+      <div className="mt-10 grid gap-6 md:grid-cols-2">
         {safeAboutItems.map((item) => (
           <div key={item.title} className="rounded-2xl border border-white/10 bg-white/5 p-6">
             <h3 className="text-xl font-semibold">{item.title}</h3>

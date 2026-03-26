@@ -21,7 +21,7 @@ export default function Header() {
     setOpen(false)
   }
 
-  const isHome = currentRoute === '/'
+  const isHome = currentRoute === '/' 
   const isProjects = currentRoute === '/projects'
   // matches /projects/<anything> (e.g. /projects/1 or /projects/slug)
   const isProjectDetail = /^\/projects\/[^/]+$/.test(currentRoute)

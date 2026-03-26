@@ -1,6 +1,6 @@
 export default function SectionTitle({ eyebrow, title, description }) {
   return (
-    <div className="max-w-2xl">
+    <div className="max-w-6xl">
       <p className="mb-3 text-sm font-semibold uppercase tracking-[0.24em] text-sky-400">
         {eyebrow}
       </p>
