@@ -91,39 +91,7 @@
   "projetos": {
     "eyebrow": "Projects",
     "title": "Our work",
-    "description": "At 404 Duo Not Found, we take pride in the projects we've completed for our clients. Here are some examples of our work:",
-    "items": [
-      {
-        "title": "Project 1",
-        "tag": "E-commerce",
-        "description": "Description of project 1."
-      },
-      {
-        "title": "Project 2",
-        "tag": "Corporate Website",
-        "description": "Description of project 2."
-      },
-      {
-        "title": "Project 3",
-        "tag": "Portfolio",
-        "description": "Description of project 3."
-      },
-      {
-        "title": "Project 4",
-        "tag": "Blog",
-        "description": "Description of project 4."
-      },
-      {
-        "title": "Project 5",
-        "tag": "Custom Solution",
-        "description": "Description of project 5."
-      },
-      {
-        "title": "Project 6",
-        "tag": "Corporate Website",
-        "description": "Description of project 6."
-      }
-    ]
+    "description": "At 404 Duo Not Found, we take pride in the projects we've completed for our clients. Here are some examples of our work:"
   },
   "team": {
     "eyebrow": "Team",
@@ -171,6 +139,12 @@
       "title": "Smart Home",
       "description": "Home automation system with remote control and integration with smart devices.",
       "content": "Smart Home was developed to provide a more convenient and efficient living experience, enabling centralized control of all household devices."
+    },
+    "Roblox Tycoon": {
+      "tag": "Game",
+      "title": "Roblox Tycoon",
+      "description": "A business simulation game on the Roblox platform.",
+      "content": "Roblox Tycoon was developed to offer an engaging and challenging gaming experience, allowing players to build and manage their own empire."
     }
   }
 }

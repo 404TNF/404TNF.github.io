@@ -73,39 +73,7 @@
   "projetos": {
     "eyebrow": "Projetos",
     "title": "Alguns dos nossos trabalhos",
-    "description": "Aqui estão alguns dos projetos que desenvolvemos para os nossos clientes. Cada projeto é único e reflete a identidade e os objetivos do negócio. Se quiseres saber mais sobre algum projeto específico ou discutir como podemos ajudar o teu negócio, não hesites em entrar em contacto connosco.",
-    "items": [
-      {
-        "title": "Projeto 1",
-        "tag": "E-commerce",
-        "description": "Descrição do projeto 1."
-      },
-      {
-        "title": "Projeto 2",
-        "tag": "Website Institucional",
-        "description": "Descrição do projeto 2."
-      },
-      {
-        "title": "Projeto 3",
-        "tag": "Portfólio",
-        "description": "Descrição do projeto 3."
-      },
-      {
-        "title": "Projeto 4",
-        "tag": "Blog",
-        "description": "Descrição do projeto 4."
-      },
-      {
-        "title": "Projeto 5",
-        "tag": "Landing Page",
-        "description": "Descrição do projeto 5."
-      },
-      {
-        "title": "Projeto 6",
-        "tag": "Website Corporativo",
-        "description": "Descrição do projeto 6."
-      }
-    ]
+    "description": "Aqui estão alguns dos projetos que desenvolvemos para os nossos clientes. Cada projeto é único e reflete a identidade e os objetivos do negócio. Se quiseres saber mais sobre algum projeto específico ou discutir como podemos ajudar o teu negócio, não hesites em entrar em contacto connosco."
   },
   "services" : {
     "eyebrow": "Serviços",
@@ -172,6 +140,12 @@
       "title": "Smart Home",
       "description": "Sistema de automação residencial com controlo remoto e integração com dispositivos inteligentes.",
       "content": "O Smart Home foi desenvolvido para proporcionar uma experiência de vida mais conveniente e eficiente, permitindo o controlo centralizado de todos os dispositivos da casa."
+    },
+    "Roblox Tycoon": {
+      "tag": "Jogo",
+      "title": "Roblox Tycoon",
+      "description": "Jogo de simulação de negócios na plataforma Roblox.",
+      "content": "O Roblox Tycoon foi desenvolvido para oferecer uma experiência de jogo envolvente e desafiadora, permitindo aos jogadores construir e gerir o seu próprio império."
     }
   }
 }

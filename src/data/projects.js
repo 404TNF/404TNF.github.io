@@ -1,23 +1,42 @@
 const projects = [
   {
     id: 'MentalEase',
-    image: '/images/projects/mental-ease.png',
+    image: '/images/mental-ease.png',
+    app_Image: {
+      status: false,
+      image: '/images/mental-ease-app.png'
+    },
     github: 'https://github.com/...',
-    demo: 'https://example.com/mental-ease',
-    video: 'https://www.youtube.com/embed/...',
+    demo: {
+      status: false,
+      demo: ''
+    },
+    video: {
+      status: false,
+      video: ''
+    },
     featured: true,
     progress: {
-      done: false,
+      done: true,
       value: 20
     }
   },
   {
     id: 'Sistema de elevadores',
     image: '/images/elevator-system.png',
-    app_Image: '/images/elevator-system-app.png',
+    app_Image: {
+      status: true,
+      image: '/images/elevator-system-app.png'
+    },
     github: 'https://github.com/...',
-    demo: 'https://example.com/nova',
-    video: 'https://www.youtube.com/embed/...',
+    demo: {
+      status: true,
+      demo: 'https://example.com/elevator-system'
+    },
+    video: {
+      status: true,
+      video: 'https://www.youtube.com/embed/...'
+    },
     featured: true,
     progress: {
       done: true,
@@ -27,15 +46,47 @@ const projects = [
   {
     id: 'Smart Home',
     image: '/images/Smart-home.png',
+    app_Image: {
+      status: false,
+      image: '/images/smart-home-app.png'
+    },
     github: 'https://github.com/...',
-    demo: 'https://example.com/pulse',
-    video: '',
-    featured: false,
+    demo: {
+      status: false,
+      demo: ''
+    },
+    video: {
+      status: false,
+      video: ''
+    },
+    featured: true,
     progress: {
       done: true,
       value: 100
     }
   },
+  {
+    id: 'Roblox Tycoon',
+    image: '/images/roblox-game.png',
+    app_Image: {
+      status: false,
+      image: '/images/roblox-tycoon-app.png'
+    },
+    github: 'https://github.com/...',
+    demo: {
+      status: false,
+      demo: ''
+    },
+    video: {
+      status: false,
+      video: ''
+    },
+    featured: true,
+    progress: {
+      done: false,
+      value: 10
+    }
+  }
 ]
 
 export default projects

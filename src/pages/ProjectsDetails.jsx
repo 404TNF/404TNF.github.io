@@ -37,10 +37,10 @@ export default function ProjectDetail() {
         {t(`projects.${project.id}.description`)}
       </p>
 
-      {project.app_Image && (
+      {project.app_Image.status === true && (
         <div className="mt-8 overflow-hidden rounded-3xl border border-white/10 bg-white/5">
           <img
-            src={project.app_Image}
+            src={project.app_Image.image}
             alt={t(`projects.${project.id}.title`)}
             className="h-full w-full object-cover"
           />
@@ -54,9 +54,9 @@ export default function ProjectDetail() {
       </div>
 
       <div className="mt-8 flex flex-wrap gap-4">
-        {project.demo && (
+        {project.demo.status === true && (
           <a
-            href={project.demo}
+            href={project.demo.demo}
             target="_blank"
             rel="noreferrer"
             className="rounded-xl bg-white px-5 py-3 font-medium text-slate-950 transition hover:opacity-90"
@@ -77,11 +77,11 @@ export default function ProjectDetail() {
         )}
       </div>
 
-      {project.video && (
+      {project.video.status === true && (
         <div className="mt-10 overflow-hidden rounded-3xl border border-white/10 bg-white/5">
           <iframe
             className="aspect-video w-full"
-            src={project.video}
+            src={project.video.video}
             title={t(`projects.${project.id}.title`)}
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen
