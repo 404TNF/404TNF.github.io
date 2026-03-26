@@ -13,7 +13,8 @@ const projects = [
   },
   {
     id: 'Sistema de elevadores',
-    image: './images/elevator-system.png',
+    image: '/images/elevator-system.png',
+    app_Image: '/images/elevator-system-app.png',
     github: 'https://github.com/...',
     demo: 'https://example.com/nova',
     video: 'https://www.youtube.com/embed/...',
@@ -25,7 +26,7 @@ const projects = [
   },
   {
     id: 'Smart Home',
-    image: './images/Smart-home.png',
+    image: '/images/Smart-home.png',
     github: 'https://github.com/...',
     demo: 'https://example.com/pulse',
     video: '',

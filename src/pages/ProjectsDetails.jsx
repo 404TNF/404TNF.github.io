@@ -37,10 +37,10 @@ export default function ProjectDetail() {
         {t(`projects.${project.id}.description`)}
       </p>
 
-      {project.image && (
+      {project.app_Image && (
         <div className="mt-8 overflow-hidden rounded-3xl border border-white/10 bg-white/5">
           <img
-            src={project.image}
+            src={project.app_Image}
             alt={t(`projects.${project.id}.title`)}
             className="h-full w-full object-cover"
           />
