@@ -29,7 +29,7 @@ export default function Header() {
   return (
     <header className="sticky top-0 z-50 border-b border-white/10 bg-slate-950/85 backdrop-blur">
       <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
-        <a href="#home" className="text-lg font-semibold tracking-wide">
+        <a href="/" className="text-lg font-semibold tracking-wide">
           {t("org_name")}
         </a>
 
@@ -49,7 +49,7 @@ export default function Header() {
           (isProjects || isProjectDetail) && (
             <nav className="hidden gap-8 text-sm text-slate-300 md:flex">
               <a href="/" className="hover:text-white">{t("header.home")}</a>
-              <a href="/projects" className="hover:text-white">{t("header.projects")}</a>
+              <a href="/#/projects" className="hover:text-white">{t("header.projects")}</a>
             </nav>
           )
         }
@@ -100,7 +100,7 @@ export default function Header() {
             {(isProjects || isProjectDetail) && (
               <>
                 <a href="/" onClick={() => setOpen(false)}>{t("header.home")}</a>
-                <a href="/projects" onClick={() => setOpen(false)}>{t("header.projects")}</a>
+                <a href="/#/projects" onClick={() => setOpen(false)}>{t("header.projects")}</a>
               </>)
 
             }

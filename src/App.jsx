@@ -1,5 +1,5 @@
 import { useEffect } from 'react'
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { HashRouter, Routes, Route } from 'react-router-dom'
 
 import Footer from './components/footer'
 import Header from './components/Header'
@@ -21,18 +21,21 @@ export default function App() {
   }, [language])
 
   return (
-    <BrowserRouter>
+    <HashRouter>
       <div className="min-h-screen bg-slate-950 text-white">
         <Header />
+
         <main>
           <Routes>
-            <Route path="/" element={<Home />} />
+            <Route path="/#" element={<Home />} />
             <Route path="/projects" element={<ProjectsPage />} />
             <Route path="/projects/:id" element={<ProjectDetail />} />
+            <Route path="*" element={<Home />} />
           </Routes>
         </main>
+
         <Footer />
       </div>
-    </BrowserRouter>
+    </HashRouter>
   )
 }

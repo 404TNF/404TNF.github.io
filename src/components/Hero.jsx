@@ -54,7 +54,7 @@ export default function Hero() {
 
           <div className="mt-8 flex flex-wrap gap-4">
             <a
-              href="/projects"
+              href="/#/projects"
               className="rounded-xl bg-white px-5 py-3 font-medium text-slate-950 transition hover:opacity-90"
             >
               {t('hero.projects')}

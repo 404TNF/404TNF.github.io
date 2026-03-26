@@ -48,7 +48,7 @@ export default function Footer() {
                 <a href="/" className="transition hover:text-white">
                   Home
                 </a>
-                <a href="/projects" className="transition hover:text-white">
+                <a href="/#/projects" className="transition hover:text-white">
                   Projects
                 </a>
               </>
