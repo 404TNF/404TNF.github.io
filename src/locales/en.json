@@ -154,24 +154,23 @@
     "description": "Explore some of the projects and work developed."
   },
   "projects": {
-    "atlas": {
-      "tag": "Dashboard",
-      "title": "Project Atlas",
-      "description": "Management platform with metrics, tasks and team tracking.",
-      "content": "Project Atlas was built to centralize operational information and improve real-time metric visualization."
-    },
-    "nova": {
+    "MentalEase": {
       "tag": "Website",
-      "title": "Project Nova",
-      "description": "Institutional website focused on digital presence and conversion.",
-      "content": "Project Nova was designed to strengthen brand credibility and simplify communication with users."
+      "title": "MentalEase",
+      "description": "A mental health support application with customized resources and tools.",
+      "content": "MentalEase was developed to provide accessible and effective mental health support, offering a personalized, wellness-focused experience."
     },
-    "pulse": {
-      "tag": "Tool",
-      "title": "Project Pulse",
-      "description": "Internal tool for process automation.",
-      "content": "Project Pulse helped reduce repetitive work through internal automations and integrations."
+    "Sistema de elevadores": {
+      "tag": "Java App",
+      "title": "Elevator System",
+      "description": "Elevator management and monitoring system with advanced features.",
+      "content": "The Elevator System was developed to optimize building management and maintenance, providing a complete solution for monitoring and controlling equipment."
+    },
+    "Smart Home": {
+      "tag": "Java App",
+      "title": "Smart Home",
+      "description": "Home automation system with remote control and integration with smart devices.",
+      "content": "Smart Home was developed to provide a more convenient and efficient living experience, enabling centralized control of all household devices."
     }
   }
-
 }

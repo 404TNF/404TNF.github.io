@@ -155,23 +155,23 @@
     "description": "Explora alguns dos projetos e trabalhos desenvolvidos."
   },
   "projects": {
-    "atlas": {
-      "tag": "Dashboard",
-      "title": "Project Atlas",
-      "description": "Plataforma de gestão com métricas, tarefas e acompanhamento de equipas.",
-      "content": "O Project Atlas foi desenvolvido para centralizar informação operacional e melhorar a visualização de métricas em tempo real."
-    },
-    "nova": {
+    "MentalEase": {
       "tag": "Website",
-      "title": "Project Nova",
-      "description": "Website institucional focado em presença digital e conversão.",
-      "content": "O Project Nova foi pensado para reforçar a credibilidade da marca e simplificar a comunicação com utilizadores."
+      "title": "MentalEase",
+      "description": "Aplicação de apoio à saúde mental com recursos e ferramentas personalizadas.",
+      "content": "A MentalEase foi desenvolvida para oferecer suporte acessível e eficaz à saúde mental, proporcionando uma experiência personalizada e orientada para o bem-estar."
     },
-    "pulse": {
-      "tag": "Tool",
-      "title": "Project Pulse",
-      "description": "Ferramenta interna para automação de processos.",
-      "content": "O Project Pulse ajudou a reduzir trabalho repetitivo através de integrações e automatizações internas."
+    "Sistema de elevadores": {
+      "tag": "App Java",
+      "title": "Sistema de elevadores",
+      "description": "Sistema de gestão e monitorização de elevadores com funcionalidades avançadas.",
+      "content": "O Sistema de elevadores foi desenvolvido para otimizar a gestão e manutenção de edifícios, proporcionando uma solução completa para o acompanhamento e controlo dos equipamentos."
+    },
+    "Smart Home": {
+      "tag": "App Java",
+      "title": "Smart Home",
+      "description": "Sistema de automação residencial com controlo remoto e integração com dispositivos inteligentes.",
+      "content": "O Smart Home foi desenvolvido para proporcionar uma experiência de vida mais conveniente e eficiente, permitindo o controlo centralizado de todos os dispositivos da casa."
     }
   }
 }
