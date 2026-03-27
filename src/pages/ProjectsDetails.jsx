@@ -100,10 +100,9 @@ export default function ProjectDetail() {
           />
         </div>
       )}
-
       {project.extra && (
         <div className="mt-8">
-          <p className="leading-7 text-slate-300">
+          <p className="leading-7 text-slate-300 italic text-[12px] hover:cursor(apply(gay-rainbowLGBTQ++EFFECTFUNCTIONWOW))">
             *{t(`projects.${project.id}.extra`)}
           </p>
         </div>

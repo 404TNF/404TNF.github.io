@@ -147,9 +147,10 @@
       "title": "Smart Home",
       "description": "Sistema de automação residencial com controlo remoto e integração com dispositivos inteligentes.",
       "content": [{
-        "1": "O Smart Home foi desenvolvido para proporcionar uma experiência de vida mais conveniente e eficiente, permitindo o controlo centralizado de todos os dispositivos da casa."
+        "1": "O Smart Home foi desenvolvido para proporcionar uma experiência de vida mais conveniente e eficiente, permitindo o controlo centralizado de todos os dispositivos da casa.",
+        "2": "Com uma interface intuitiva e fácil de usar, o Smart Home permite aos utilizadores controlar a iluminação, temperatura, segurança e outros dispositivos inteligentes, tudo a partir de um único aplicativo com interface gráfica desenvolvida em JavaFX."
       }],
-      "extra": "Informações adicionais sobre o projeto MentalEase."
+      "extra": "Não é possível visualizar a parte visual(maquete) do projeto devido à necessidade de um arduino"
     },
     "Roblox Tycoon": {
       "tag": "Jogo",
