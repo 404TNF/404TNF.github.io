@@ -8,6 +8,8 @@ import Home from './pages/Home'
 import ProjectsPage from './components/ProjectsPage'
 import ProjectDetail from './pages/ProjectsDetails'
 
+import ScrollUp from './components/ScrollUp'
+
 import i18n from './i18n'
 import useStore from './store'
 
@@ -24,7 +26,7 @@ export default function App() {
     <HashRouter>
       <div className="min-h-screen bg-slate-950 text-white">
         <Header />
-
+        <ScrollUp />
         <main>
           <Routes>
             <Route path="/" element={<Home />} />
